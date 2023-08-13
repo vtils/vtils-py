@@ -10,19 +10,20 @@ t2 = cipher.decrypt(t1)
 
 
 ### Encrypt File  
-
+TBD
 
 
 ### Decrypt File  
-
+TBD
 
 
 ## AWS Cloud Utils (AwsCloudtils) 
 
 ### Upload File  
+TBD
 
 ### Download File  
-
+TBD
 
 
 
