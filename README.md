@@ -34,7 +34,7 @@ from vtils.cloud import AwsCloudtils
 svc = AwsCloudtils(accesskey, secretkey)
 success = svc.upload_file(src, s3bucket)
 if not success:
-print('Failed to upload file to s3 bucket')
+    print('Failed to upload file to s3 bucket')
 ```
 
 ### Download File
@@ -44,7 +44,7 @@ from vtils.cloud import AwsCloudtils
 svc = AwsCloudtils(accesskey, secretkey)
 success = svc.download_file(s3bucket, objname, dest)
 if not success:
-print('Failed to download file from s3 bucket')
+    print('Failed to download file from s3 bucket')
 ```
 
 
