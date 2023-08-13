@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 setup(
     name='vtils',
     packages=find_packages(include=['vtils']),
-    version='0.1.0',
+    version='0.1.1',
     description='Vtils Python Library',
     long_description = long_description,
     long_description_content_type = "text/markdown",
